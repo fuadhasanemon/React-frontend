@@ -1,0 +1,18 @@
+.team-member {
+  .card-body {
+    text-align: center;
+
+    img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .socials {
+      ul {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  }
+}
