@@ -3,6 +3,11 @@ import Header from "../../components/Header/Header";
 import "./services.scss";
 
 const Services = () => {
+  const handleReadMore = (e) => {
+    alert("Hi Fuad");
+    prompt("Enter your name");
+  };
+
   return (
     <>
       <Header />
@@ -15,6 +20,13 @@ const Services = () => {
               hic rem amet molestiae quasi sint necessitatibus commodi quidem
               dolorum non.
             </p>
+            <button
+              href="#"
+              className="btn btn-primary d-inline-block"
+              onClick={handleReadMore}
+            >
+              Read More
+            </button>
           </div>
         </div>
       </div>

@@ -38,8 +38,6 @@ const Product = () => {
                         </div>
                       )}
 
-                      <p>{product.desc}</p>
-
                       <Link
                         to={`/shop/${product.slug}`}
                         className="btn btn-primary"
