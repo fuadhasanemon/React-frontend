@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../../components/Header/Header";
 import TeamMember from "../../components/TeamMember/TeamMember";
 import Title from "../../components/Title/Title";
 import { team } from "../../faker/team";
@@ -7,6 +8,8 @@ import "./team.scss";
 const Team = () => {
   return (
     <>
+      <Header />
+
       <div className="our-team py-5">
         <div className="container">
           <div className="row">

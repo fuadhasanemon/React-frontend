@@ -1,0 +1,23 @@
+nav {
+  .row {
+    align-items: center;
+    .manu_list {
+      ul {
+        display: flex;
+        justify-content: end;
+
+        li {
+          padding: 20px 30px;
+
+          a {
+            color: #777;
+
+            &:hover {
+              color: skyblue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
