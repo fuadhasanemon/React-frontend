@@ -1,0 +1,13 @@
+.product-details-page {
+  .item_content {
+    .price {
+      padding: 10px 0;
+      font-size: 20px;
+      .sale-price {
+        text-decoration: line-through;
+        margin-right: 10px;
+        color: #777;
+      }
+    }
+  }
+}
