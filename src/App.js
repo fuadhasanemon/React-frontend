@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router';
 import './App.css';
 import Contact from './pages/Contact/Contact';
 import Home from './pages/Home/Home';
+import NotFound from './pages/NotFound/NotFound';
 import Product from './pages/Product/Product';
 import ProductDetails from './pages/ProductDetails/ProductDetails';
 import Services from './pages/Services/Services';
@@ -17,9 +18,8 @@ function App() {
       <Route path='/shop/:slug' element={<ProductDetails />}/>
       <Route path='/team' element={<Team />}/>
       <Route path='/contact' element={<Contact />}/>
-      
+      <Route path='*' element={<NotFound />}/>
     </Routes>
-      
     </>
   );
 }
