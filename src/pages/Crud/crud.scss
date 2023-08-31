@@ -1,0 +1,18 @@
+.crud-page {
+    .add_new_dev_btn {
+        width: 200px;
+    }
+    table {
+        tr {
+            td {
+                vertical-align: middle;
+            }
+            .developers_photo {
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
+
